@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+    <option name="vmParameters" value="-XX:MaxPermSize=384M -Dhttp.proxyHost=proxyv.dpn.deere.com -Dhttp.proxyPort=3129 -Dhttp.proxyUser=pcapexbld -Dhttp.proxyPassword=kla03bre -Dhttp.nonProxyHosts=*.deere.com " />
+  </component>
+</project>
