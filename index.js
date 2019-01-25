@@ -1,3 +1,5 @@
-const callAll = require('./src/collect-all');
+const process = require('./src/collect-all');
 
-callAll.default();
+module.exports = {
+    init: process()
+};

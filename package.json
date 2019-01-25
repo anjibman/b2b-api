@@ -1,31 +1,27 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "b2b-api",
+  "version": "0.1.0",
+  "description": "A sample Node.js app",
   "main": "index.js",
   "scripts": {
-    "start": "node src/collect-all.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "async": "^2.6.1",
-    "axios": "^0.18.0",
-    "express": "^4.13.3"
+    "async": "2.6.1",
+    "axios": "0.18.0"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "8.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/anjibman/b2b-api"
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "b2b"
+
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
+  "author": "Anjib Mulepati",
   "license": "MIT"
 }

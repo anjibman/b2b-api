@@ -4,7 +4,7 @@ const getPreferences = (user, callback) => {
     return callback(null, user.toUpperCase());
 };
 
-const callAll = () => {
+module.exports = () => {
     const users = ['anjib', 'sanjib', 'kunjini', 'evara'];
 
     async.map(users, getPreferences, (err, data) => {
@@ -12,5 +12,3 @@ const callAll = () => {
     } );
 
 };
-
-callAll();
